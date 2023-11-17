@@ -1,0 +1,64 @@
+:root {
+    :root {
+        /* Colors */
+    
+        /* Primary */
+        --dark-cyan: hsl(158, 36%, 37%);
+        --cream: hsl(30, 38%, 92%);
+    
+        /* Neutral */
+        --very-dark-blue: hsl(212, 21%, 14%);
+        --dark-grayish-blue: hsl(228, 12%, 48%);
+        --white: hsl(0, 0%, 100%);
+    }
+}
+
+body {
+    background-color: var(--cream);
+}
+
+.contenedor {
+    display: flex;
+    background-color: crimson;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 11px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 11px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 7px 5px 0px rgba(0,0,0,0.75);
+    margin: auto; /* Márgenes automáticos en los lados izquierdo y derecho */
+    max-width: 70rem; /* Ancho máximo del contenedor */
+    align-items: center; /* Centrar verticalmente */
+
+}
+
+
+img {
+    margin-top: 50;
+    width: auto;
+    border-radius: 20px;
+    
+}
+
+.col2 {
+flex: 1;
+background-color: var(--white);
+width: 100%;
+}
+
+.col1,
+ .col2 {
+    border-radius: 20px;
+    flex: 1;
+}
+
+span {
+    font-size: 15px;
+}
+
+.botoncito {
+  text-align: center;
+}
+
+.attribution {
+    margin-top: 300px;
+}
